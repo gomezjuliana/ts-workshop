@@ -1,0 +1,30 @@
+{
+  "name": "ts-workshop",
+  "version": "1.0.0",
+  "description": "This is a workshop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "node_modules/.bin/tsc",
+    "start": "npm run compile && node dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gomezjuliana/ts-workshop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gomezjuliana/ts-workshop/issues"
+  },
+  "homepage": "https://github.com/gomezjuliana/ts-workshop#readme",
+  "devDependencies": {
+    "@types/node": "^8.0.24",
+    "@types/restify": "^5.0.1",
+    "install": "^0.10.1",
+    "npm": "^5.3.0",
+    "restify": "^5.2.0",
+    "typescript": "^2.4.2"
+  }
+}
